@@ -1,0 +1,75 @@
+/* media in large screen */
+
+@media(max-width:992px) {
+    nav .nav-num {
+        flex: 30%;
+        max-width: 30%;
+        position: relative;
+        right: -50%;
+    }
+    nav .nav-links {
+        position: fixed;
+        background: rgb(255, 255, 255);
+        height: 100vh;
+        width: 200px;
+        top: 0;
+        right: -200px;
+        text-align: left;
+        z-index: 20;
+        transition: 0.5s;
+    }
+    nav .nav-links li {
+        display: block;
+    }
+    nav .nav-links li a {
+        color: black;
+    }
+    nav .fa-bars,
+    nav .fa-times {
+        display: block;
+        color: #eb1c24;
+        margin: 10px;
+        font-size: 22px;
+        cursor: pointer;
+        position: absolute;
+        top: 20px;
+    }
+    .fa-bars {
+        right: 100px;
+    }
+    nav .nav-links {
+        padding: 80px 0;
+    }
+    nav .nav-links li a {
+        line-height: 2.4;
+    }
+}
+
+
+/* media in medium screen */
+
+@media (max-width: 768px) {
+    .fa-bars {
+        right: 50px;
+    }
+    nav .nav-num {
+        display: none;
+    }
+    .intro .content header h1,
+    .intro .content header .h1,
+    .intro .content header h2,
+    .intro .content header .h2 {
+        font-weight: 700;
+        line-height: 1;
+        font-size: 35px;
+    }
+}
+
+
+/* media in small screen */
+
+@media (max-width: 576px) {
+    .fa-bars {
+        right: 25px;
+    }
+}

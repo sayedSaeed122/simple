@@ -1,0 +1,715 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!-- Title -->
+    <title>Angora Template</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" type="text/css" href="lib/bootstrap/css/bootstrap.min.css">
+    <!-- Font awesome -->
+    <link rel="stylesheet" type="text/css" href="lib/font-awesome/css/font-awesome.min.css" />
+    <!-- Owl carousel -->
+    <link rel="stylesheet" type="text/css" href="lib/owl.carousel/assets/owl.carousel.min.css">
+
+    <!-- Google web fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,600italic,700,700italic" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,600,600italic,700,700italic" rel="stylesheet" type="text/css">
+
+
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="css/style2.css" type="text/css">
+    <link rel="stylesheet" href="css/media-query.css" type="text/css">
+
+</head>
+
+<body>
+
+    <!-- start navbar -->
+    <nav>
+        <div class="container">
+            <div class="row">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="images/logo-white.png" alt="">
+                    </a>
+                </div>
+                <ul class="nav-links" id="nav-links">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <li><a href="#" data-scroll="intro" class="active">Home</a></li>
+                    <li><a href="#" data-scroll="about">About</a></li>
+                    <li><a href="#" data-scroll="team">Team</a></li>
+                    <li><a href="#" data-scroll="services">Services</a></li>
+                    <li><a href="#" data-scroll="testimonials">testimonials</a></li>
+                    <li><a href="#" data-scroll="contact">Contact</a></li>
+                </ul>
+                <ul class="nav-num">
+                    <li>
+                        <a href="#" title="Twitter"><i class="fa fa-twitter"></i></a>
+                        <a href="#" title="Facebook"><i class="fa fa-facebook-f"></i></a>
+                        <a href="#" title="Instagram"><i class="fa fa-instagram"></i></a>
+                    </li>
+                </ul>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </div>
+        </div>
+    </nav>
+    <!-- end navbar -->
+
+
+    <!-- Start section Intro or slider -->
+    <section class="intro" id="intro">
+        <!-- Images list -->
+        <div class="images-list owl-carousel">
+            <div class="item">
+                <img src="images/slideshow-1.jpg" alt="">
+                <!-- Slide 1 -->
+                <div class="content">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <header>
+                                <h1 class="animate fadeInRight lowercase">We build<br>great brands.</h1>
+                            </header>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="images/slideshow-2.jpg" alt="">
+                <!-- Slide 1 -->
+                <div class="content">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <header>
+                                <h1 class="animate fadeInRight lowercase">Focused<br>on strategy.</h1>
+                            </header>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="images/slideshow-3.jpg" alt="">
+                <!-- Slide 1 -->
+                <div class="content">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <header>
+                                <h1 class="animate fadeInRight lowercase">
+                                    Advanced in<br>digital works.
+                                </h1>
+                            </header>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+        <!-- Magic mouse -->
+        <a href="#services" data-scroll="about" class="button-scroll">
+            <span></span>
+        </a>
+    </section>
+    <!-- End section Intro or slider -->
+
+
+
+    <!-- start section about -->
+    <section id="about">
+        <div class="container">
+            <div class="col-sm-12">
+                <div class=" section-header d-flex position-relative justify-content-center align-items-center">
+                    <h2 class=" position-absolute">A</h2>
+                    <h3 class=" position-absolute">About Us</h3>
+                    <hr>
+                </div>
+                <p class=" text-center p3">Pellentesque elementum libero enim, eget gravida nunc laoreet et. Nullam ac enim<br> auctor, fringilla risus at, imperdiet turpis. Pellentesque elementum libero enim.</p> 
+            </div>
+            <div class="row">
+                <div class="col-md-7 col-xs-12">
+                    <div class="about-paragraph mb-3 align-items-center  ">
+                        <br>
+                        <p class=" mt-3">Pellentesque vel elit egestas, pretium est ac, convallis orci. Vivamus sem nisl, tristique vel fringilla vitae, efficitur at eros. Duis aliquet aliquet pharetra. Suspendisse bibendum erat quis gravida pulvinar. Phasellus vel eros
+                            porta, blandit dui ac, viverra felis.</p>
+                        <p>Nunc placerat iaculis pulvinar. Nullam auctor mauris sed urna posuere volutpat. Mauris ut dui sit amet elit fermentum fermentum. Fusce tincidunt diam at bibendum porta.</p>
+                        <p>Aliquam nunc felis, sagittis eu purus non, interdum vehicula urna. Vivamus congue diam sapien, eu pellentesque ipsum ultricies quis.</p>
+                    </div>
+                </div>
+                <div class="col-md-5 col-xs-12">
+                    <div class="about-progress mt-1 ml-2 pl-2 align-items-center ">
+                        <!-- prog 1 -->
+                        <div class="prog">
+                            <div class="progress-heading">
+                                <p class="progress-title">Branding</p>
+                                <div class="progress-value"></div>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar w-75" data-value="80" aria-valuemax="100" role="progressbar" aria-valuenow="75" aria-valuemin="0"></div>
+                            </div>
+                        </div>
+
+                        <div class="prog">
+                            <div class="progress-heading">
+                                <p class="progress-title">Web Design</p>
+                                <div class="progress-value"></div>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar  w-75 " data-value="95" aria-valuemax="100" role="progressbar" aria-valuenow="75" aria-valuemin="0"></div>
+                            </div>
+                        </div>
+                        <div class="prog">
+                            <div class="progress-heading">
+                                <p class="progress-title">Graphic Design</p>
+                                <div class="progress-value"></div>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar w-75" data-value="85"></div>
+                            </div>
+                        </div>
+
+
+                        <div class="prog">
+                            <div class="progress-heading">
+                                <p class="progress-title">Development</p>
+                                <div class="progress-value"></div>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar w-75" data-value="70"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <br>
+    <!-- end section about -->
+
+
+
+    <!-- start our team section -->
+    <section id="team" class="team">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-xs-12 col-md-offset-2">
+                    <div class=" section-header d-flex position-relative justify-content-center align-items-center">
+                        <h2 class=" position-absolute">o</h2>
+                        <h3 class=" position-absolute">Our Team</h3>
+                        <hr>
+                    </div>
+                    <p class=" text-center p3">Vestibulum ante ipsum primis in faucibus orci. Morbi tincidunt urna imperdiet <br>tincidunt rhoncus. Sed mollis ligula non massa aliquam faucibus.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="team-element res-margin">
+                        <div class="team-image">
+                            <img src="images/member-1.jpg" alt="" class="img-fluid">
+                            <div class="team-social">
+                                <div class="team-social-inner">
+                                    <a href="#"><i class="fa fa-twitter "></i></a>
+                                    <a href="#"><i class="fa fa-facebook-f "></i></a>
+                                    <a href="#"><i class="fa fa-linkedin "></i></a>
+                                    <a href="#"><i class="fa fa-dribbble "></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="team-descrption text-center">
+                            <h5 class="head">Michael Broad</h5>
+                            <span class="position">Web Designer</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-md-3">
+                    <div class="team-element res-margin">
+                        <div class="team-image">
+                            <img src="images/member-2.jpg" alt="" class="img-fluid">
+                            <div class="team-social">
+                                <div class="team-social-inner">
+                                    <a href="#"><i class="fa fa-twitter"></i></a>
+                                    <a href="#"><i class="fa fa-facebook-f"></i></a>
+                                    <a href="#"><i class="fa fa-linkedin"></i></a>
+                                    <a href="#"><i class="fa fa-dribbble"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="team-descrption text-center">
+                            <h5 class="head">Michael Broad</h5>
+                            <span class="position">Web Designer</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-md-3">
+                    <div class="team-element res-margin">
+                        <div class="team-image">
+                            <img src="images/member-3.jpg" alt="" class="img-fluid">
+                            <div class="team-social">
+                                <div class="team-social-inner">
+                                    <a href="#"><i class="fa fa-twitter"></i></a>
+                                    <a href="#"><i class="fa fa-facebook-f"></i></a>
+                                    <a href="#"><i class="fa fa-linkedin"></i></a>
+                                    <a href="#"><i class="fa fa-dribbble"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="team-descrption text-center">
+                            <h5 class="head">Michael Broad</h5>
+                            <span class="position">Web Designer</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="team-element res-margin">
+                        <div class="team-image">
+                            <img src="images/member-4.jpg" alt="" class="img-fluid ">
+                            <div class="team-social">
+                                <div class="team-social-inner">
+                                    <a href="#"><i class="fa fa-twitter"></i></a>
+                                    <a href="#"><i class="fa fa-facebook-f"></i></a>
+                                    <a href="#"><i class="fa fa-linkedin"></i></a>
+                                    <a href="#"><i class="fa fa-dribbble"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="team-descrption text-center">
+                            <h5 class="head">Michael Broad</h5>
+                            <span class="position">Web Designer</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="team-end">
+                    <div>
+                        <h4>Do you have any ideas?</h4>
+                    </div>
+                    <div>
+                        <button class="btn btn-default">Contact</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end our team section -->
+
+
+    <!-- start services -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-8 col-md-offset-2 col-xs-12">
+                    <!-- Section title -->
+                    <div class="section-title text-center">
+                        <h2>Services</h2>
+                        <hr>
+                        <p>Nullam ac enim auctor, fringilla risus at, imperdiet turpis. Pellentesque elementum libero enim, eget gravida nunc laoreet et. Pellentesque elementum libero enim.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- end header of services -->
+
+            <div class="row">
+                <div class="col-md-4 col-sm-6">
+                    <div class="service-single clearfix res-margin">
+                        <i class="fa fa-laptop fa-2x"></i>
+                        <div class="service-text">
+                            <h3>Responsive Layout</h3>
+                            <p>
+                                Ferri reque integre mea ut, eu eos vide errem noluise se. Putent laoreet et ius utroque dissentias ut.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="service-single clearfix res-margin">
+                        <i class="fa fa-pencil fa-2x"></i>
+                        <div class="service-text">
+                            <h3>Modern Design</h3>
+                            <p>
+                                Ferri reque integre mea ut, eu eos vide errem noluise se. Putent laoreet et ius utroque dissentias ut.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="service-single clearfix res-margin">
+                        <i class="fa fa-flag fa-2x"></i>
+                        <div class="service-text">
+                            <h3>Font Awesome Icons</h3>
+                            <p>
+                                Ferri reque integre mea ut, eu eos vide errem noluise se. Putent laoreet et ius utroque dissentias ut.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-6">
+                    <div class="service-single clearfix res-margin">
+                        <i class="fa fa-id-card fa-2x"></i>
+                        <div class="service-text">
+                            <h3>Ajax Portfolio</h3>
+                            <p>
+                                Ferri reque integre mea ut, eu eos vide errem noluise se. Putent laoreet et ius utroque dissentias ut.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="service-single clearfix res-margin">
+                        <i class="fa fa-edit fa-2x"></i>
+                        <div class="service-text">
+                            <h3>Color Options</h3>
+                            <p>
+                                Ferri reque integre mea ut, eu eos vide errem noluise se. Putent laoreet et ius utroque dissentias ut.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="service-single clearfix res-margin">
+                        <i class="fa fa-headphones fa-2x"></i>
+                        <div class="service-text">
+                            <h3>Audio Support</h3>
+                            <p>
+                                Ferri reque integre mea ut, eu eos vide errem noluise se. Putent laoreet et ius utroque dissentias ut.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="service-single clearfix res-margin">
+                        <i class="fa fa-list fa-2x"></i>
+                        <div class="service-text">
+                            <h3>Well Documented</h3>
+                            <p>
+                                Ferri reque integre mea ut, eu eos vide errem noluise se. Putent laoreet et ius utroque dissentias ut.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-6">
+                    <div class="service-single clearfix res-margin">
+                        <i class="fa fa-video-camera fa-2x"></i>
+                        <div class="service-text">
+                            <h3>Background Videos</h3>
+                            <p>
+                                Ferri reque integre mea ut, eu eos vide errem noluise se. Putent laoreet et ius utroque dissentias ut.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="service-single clearfix res-margin">
+                        <i class="fa fa-mixcloud fa-2x"></i>
+                        <div class="service-text">
+                            <h3>Intro Slider</h3>
+                            <p>
+                                Ferri reque integre mea ut, eu eos vide errem noluise se. Putent laoreet et ius utroque dissentias ut.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- end services -->
+
+
+
+    <!-- srart client reviwes section -->
+
+
+    <section class="testimonials">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                  <div class=" section-header d-flex position-relative justify-content-center align-items-center">
+                      <h2 class=" position-absolute">C</h2>
+                      <h3 class=" position-absolute">Client Reviews</h3>
+                      <hr>
+                  </div>
+                  <p class=" text-center p3">Donec purus est, tincidunt eu sodales quis, vehicula quis enim. Morbi dapibus, tellus a <br> gravida faucibus, elit ipsum sollicitudin risus, id ultricies arcu neque eget velit.</p>
+              </div>
+                </div>
+            <div class="slider">
+                <div class="slide active">
+                    <p>" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas auctor vitae felis. 
+                   Mauris nibh diam, pharetra eu nunc id, lobortis faucibus purus. Praesent sit amet urna id velit dignissim pellentesque. "</p>
+                   <div class="client-info">
+                       <h3>Gourge Gam</h3>
+                       <span>Founder at Gikio</span>
+                   </div>
+                </div>
+                <div class="slide">
+                    <p>" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas auctor vitae felis. 
+                   Mauris nibh diam, pharetra eu nunc id, lobortis faucibus purus. Praesent sit amet urna id velit dignissim pellentesque. "</p>
+                   <div class="client-info">
+                       <h3>Pooja Singh</h3>
+                       <span>Founder at KrimSim</span>
+                   </div>
+                </div>
+                <div class="slide">
+                    <p>" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas auctor vitae felis. 
+                   Mauris nibh diam, pharetra eu nunc id, lobortis faucibus purus. Praesent sit amet urna id velit dignissim pellentesque. "</p>
+                   <div class="client-info">
+                       <h3>Rinki Paul</h3>
+                       <span>Founder at Chamba</span>
+                   </div>
+                </div>
+
+                <div class="slide">
+                    <p>" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas auctor vitae felis. 
+                   Mauris nibh diam, pharetra eu nunc id, lobortis faucibus purus. Praesent sit amet urna id velit dignissim pellentesque. "</p>
+                   <div class="client-info">
+                       <h3>Rinki Paul</h3>
+                       <span>Founder at Chamba</span>
+                   </div>
+                </div>
+                <div class="slide">
+                    <p>" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas auctor vitae felis. 
+                   Mauris nibh diam, pharetra eu nunc id, lobortis faucibus purus. Praesent sit amet urna id velit dignissim pellentesque. "</p>
+                   <div class="client-info">
+                       <h3>Rinki Paul</h3>
+                       <span>Founder at Chamba</span>
+                   </div>
+                </div>
+                <div class="slide">
+                    <p>" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas auctor vitae felis. 
+                   Mauris nibh diam, pharetra eu nunc id, lobortis faucibus purus. Praesent sit amet urna id velit dignissim pellentesque. "</p>
+                   <div class="client-info">
+                       <h3>Rinki Paul</h3>
+                       <span>Founder at Chamba</span>
+                   </div>
+                </div>
+                
+
+            </div>
+            <div class="slider-indicator">
+                <img src="images/client-1.png" class="active" alt="img" data-id="0" />
+                <img src="images/client-2.png" alt="img" data-id="1" />
+                <img src="images/client-3.png" alt="img" data-id="2" />
+                <img src="images/client-4.png" alt="img" data-id="3" />
+                <img src="images/client-5.png" alt="img" data-id="4" />
+                <img src="images/client-6.png" alt="img" data-id="5" />
+            </div>
+        </div>
+    </section>
+        
+    <!-- end client reviwes section -->
+
+
+
+    <!-- start get in touch section -->
+    <section id="contact" class="bg-gray con contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-md-offset-2 col-xs-12">
+                    <div class=" section-header d-flex position-relative justify-content-center align-items-center mb-4">
+                        <h2 class=" position-absolute">G</h2>
+                        <h3 class=" position-absolute">Get In Touch</h3>
+                        <hr>
+                    </div>
+                    <p class=" text-center p3 ">
+                        Mauris at tempus mi, ut iaculis dui. Integer laoreet mattis justo nec pretium. Ut nibh elit,<br> fermentum vel hendrerit vel, dictum nec velit. Morbi volutpat suscipit.
+                    </p>
+                </div>
+            </div>
+            <div class="section-form">
+                <div class="row">
+                    <div class="col-md-6 col-sm-6 contact-info res-margin">
+                        <h3 class="lowercase">Get answers and advices from professional consultants.</h3>
+                        <div class="contact-content clearfix">
+                            <i class="fal fa-map"></i>
+                            <div class="contact-text">
+                                <h4>Address</h4>
+                                <p>1650 Lombard Street, San Francisco, CA 94123</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-content clearfix">
+                            <i class="fa fa-mobile-alt"></i>
+                            <div class="contact-text">
+                                <h4>Phone</h4>
+                                <p>+1 (415) 876-3250 / +1 (415) 876-3251</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-content clearfix">
+                            <div class="icon icon-basic-mail"></div>
+                            <div class="contact-text">
+                                <h4>Say Hello</h4>
+                                <p><a href="/cdn-cgi/l/email-protection#e4c7"><span class="__cf_email__" data-cfemail="e2878f838b8ea2918b96878c838f87cc818d8f">[email&#160;protected]</span></a></p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="form">
+                            <div class="field">
+                                <input type="text" name="name" class="field-name" placeholder="Name">
+                            </div>
+                            <div class="field">
+                                <input type="email" name="email" class="field-email" placeholder="Email">
+                            </div>
+                            <div class="field">
+                                <input type="text" name="phone" class="field-phone" placeholder="Phone">
+                            </div>
+                            <div class="field">
+                                <textarea name="message" class="field-message" placeholder="Message"></textarea>
+                            </div>
+                            <div>
+                                <button type="submit" class="btn btn-default" id="contact-submit"><i class="fa fa-paper-plane"></i> Send Message</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- end get in touch section -->
+
+
+    <!-- start footer -->
+    <footer>
+        <!--Button back to top-->
+        <a class="up">
+            <i class="fa fa-chevron-up"></i>
+        </a>
+
+        <div class="footer-back">
+
+            <div class="container">
+                <div class="row mb-5 text-center">
+                    <div class="col-sm-12">
+                        <img src="images/icon.png" alt="icon">
+                    </div>
+                </div>
+                <div class="row mb-2 ">
+                    <div class="col-lg-3 col-sm-12">
+                        <div class="widget">
+                            <h3 class="line-top mb-3">Contact Info</h3>
+                            <p class="mb-5">1650 Lomboard Street,<br>San Francisco, CA 94123
+                                <br> +1 (415) 876-3250 <br> [email protected]
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-sm-6">
+                        <h3 class="line-top">Useful Links
+                        </h3>
+                        <ul class="footer-links mb-5">
+                            <li><a href="#">Support</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Terms & Conditions</a></li>
+                            <li><a href="#">Affiliate Program</a></li>
+                            <li><a href="#">Careers</a></li>
+                        </ul>
+
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <h3 class="line-top">Recent Posts</h3>
+                        <ul class="footer-links mb-5">
+                            <li><a href="#">Sunset in Venice</a></li>
+                            <li><a href="#">Aerial View of Village</a></li>
+                            <li><a href="#">Lighted Concrete City</a></li>
+                            <li><a href="#">The Little Ghost</a></li>
+                            <li><a href="#">Royal Oats ft. Waldo</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <h3 class="line-top">Popular Tags</h3>
+                        <div class="tags clearfix">
+                            <a href="#" class="tag">HTML5</a>
+                            <a href="#" class="tag">CSS3</a>
+                            <a href="#" class="tag">jQuery</a>
+                            <a href="#" class="tag">UX / UI</a>
+                            <a href="#" class="tag">Web</a>
+                            <a href="#" class="tag">Graphic</a>
+                            <a href="#" class="tag">Design</a>
+                            <a href="#" class="tag">Development</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- footer copyright -->
+        <div class="row justify-content-around pt-3 footer-end">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="widget">
+                        <ul class="social list-unstyled mb-5">
+                            <li><a href="#"><i class="fa fa-facebook-f"></i></a></li>
+                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                            <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-end">
+                <div class="col-md-12">
+                    <p class="end">Copyright © 2021 Elbrazily
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- end footer -->
+
+
+    <!--loading page-->
+    <div class="loading">
+        <div class="spinner">
+            <div class="bounce1"></div>
+            <div class="bounce2"></div>
+            <div class="bounce3"></div>
+        </div>
+    </div>
+
+
+
+
+
+    <!-- jQuery -->
+    <script src="lib/jquery/jquery.min.js"></script>
+    <!-- Bootstrap -->
+    <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+    <!-- lib -->
+    <script src="lib/owl.carousel/owl.carousel.min.js"></script>
+    <!-- Main -->
+    <script src="js/main.js"></script>
+    <script src="js/script.js"></script>
+
+    <script>
+        // ==================== toggle buttons====================================
+        var navLinks = document.getElementById("nav-links");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>
